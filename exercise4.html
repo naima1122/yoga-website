@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+    </head>
+    <body>
+        <h2>Online regisaration form</h2>
+
+        <form action = "/" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required> <br>
+         <label for="Email">password:</label>
+        <input type="text" id="email" name="email" required minlength="5"> <br>
+         <label for="contact number">email</label>
+        <input type="text" id="contact number" name="contact number" required placeholder="Enter your email"> <br>
+
+         <fieldset>
+            <legend> preffered days</legend>
+            <label>attedence</label>
+            <input type="checkbox" name="attedence">
+             <label>day 1</label>
+            <input type="checkbox" name="attedence">
+             <label>day 2</label>
+            <input type="checkbox" name="attedence">
+             <label>day 3</label>
+            <input type="checkbox" name="attedence">
+        </fieldset> <br>
+
+         <label>T shirt size:</label>
+        <select  name="t shirt size" id="t shirt size">
+            <option>x</option>
+               <option>xl</option>
+                  <option>m</option>
+
+        </select> <br>
+        <fieldset>
+            <legend>types of attendence</legend>
+            <label>virtual</label>
+            <input type="radio" name="type" value="virtual">
+             <label>in person</label>
+            <input type="radio" name="type" value=" in person">
+        </fieldset> <br>
+
+         <fieldset>
+            <legend> Intarest section</legend>
+            <label> selections</label>
+            <input type="checkbox" name="selections">
+             <label>web devalopment</label>
+            <input type="checkbox" name="selections">
+             <label> cloud computing</label>
+            <input type="checkbox" name="selections">
+             <label> data science</label>
+            <input type="checkbox" name="selections">
+        </fieldset> <br>
+
+         <fieldset>
+            <legend> prefence section</legend>
+            <label> selections</label>
+            <input type="checkbox" name="selections">
+             <label>vegetrain</label>
+            <input type="checkbox" name="selections">
+             <label> vegan</label>
+            <input type="checkbox" name="selections">
+             <label> gluten free</label>
+            <input type="checkbox" name="selections">
+             <label> nut free</label>
+            <input type="checkbox" name="selections">
+        </fieldset> <br>
+
+         <label> comment section:</label>
+        <textarea rows="4" cols="10" id="Bio" name="comment section"></textarea>
+        <label> email chec</label>
+            <input type="checkbox" name="email"> <br>
+
+        <input type="submit">
+
+        </form>
+    </body>
+</html>
